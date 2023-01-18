@@ -1,0 +1,12 @@
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Entidades\bin\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Entidades\bin\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Entidades\obj\Debug\Entidades.pdb
