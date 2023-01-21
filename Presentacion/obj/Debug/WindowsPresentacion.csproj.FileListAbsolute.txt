@@ -1,0 +1,77 @@
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.GenerateResource.cache
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Alternativa\Desktop\Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CopyComplete
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.GenerateResource.cache
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CopyComplete
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.GenerateResource.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CopyComplete
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.Migrations.first.resources
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.Migrations.second.resources
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.Migrations.habitaciones.resources
+C:\Users\Alternativa\Desktop\Bootcamp C# trabajos ordenados\1 - Programación Web NET Core\12 - Trabajo Grupal 12-1 - Programar la capa de datos continuación\slnIntegrador\Presentacion\obj\Debug\Presentacion.Form2.resources
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.GenerateResource.cache
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Datos.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Datos.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Datos.dll.config
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\Entidades.dll.config
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\WindowsPresentacion.csproj.CopyComplete
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\Presentacion.formPresentacion.resources
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\Presentacion.FormHabitacion.resources
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\Presentacion.FormMedico.resources
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Presentacion\obj\Debug\Presentacion.FormPaciente.resources
