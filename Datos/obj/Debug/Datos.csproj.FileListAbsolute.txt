@@ -16,3 +16,18 @@ C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5
 C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Datos\obj\Debug\Datos.dll
 C:\Users\Alternativa\Desktop\Trabajos ordenados\1 - Programación Web NET Core\5 - Trabajo Grupal 12-1\slnIntegrador\Datos\obj\Debug\Datos.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\Datos.dll.config
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\Datos.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\Datos.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\Entidades.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\Entidades.pdb
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\Entidades.dll.config
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.csproj.CopyComplete
