@@ -36,8 +36,8 @@
             this.listClinicos = new System.Windows.Forms.ListBox();
             this.listHabitaciones = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnRegMed = new System.Windows.Forms.Button();
-            this.btnRegPacnte = new System.Windows.Forms.Button();
+            this.btnFormMed = new System.Windows.Forms.Button();
+            this.btnFormPacnte = new System.Windows.Forms.Button();
             this.btnDatHabitacion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridMedicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridPacientes)).BeginInit();
@@ -111,23 +111,25 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Habitaciones:";
             // 
-            // btnRegMed
+            // btnFormMed
             // 
-            this.btnRegMed.Location = new System.Drawing.Point(15, 176);
-            this.btnRegMed.Name = "btnRegMed";
-            this.btnRegMed.Size = new System.Drawing.Size(101, 23);
-            this.btnRegMed.TabIndex = 8;
-            this.btnRegMed.Text = "Registrar médico";
-            this.btnRegMed.UseVisualStyleBackColor = true;
+            this.btnFormMed.Location = new System.Drawing.Point(15, 176);
+            this.btnFormMed.Name = "btnFormMed";
+            this.btnFormMed.Size = new System.Drawing.Size(101, 23);
+            this.btnFormMed.TabIndex = 8;
+            this.btnFormMed.Text = "Registrar médico";
+            this.btnFormMed.UseVisualStyleBackColor = true;
+            this.btnFormMed.Click += new System.EventHandler(this.btnFormMed_Click);
             // 
-            // btnRegPacnte
+            // btnFormPacnte
             // 
-            this.btnRegPacnte.Location = new System.Drawing.Point(15, 376);
-            this.btnRegPacnte.Name = "btnRegPacnte";
-            this.btnRegPacnte.Size = new System.Drawing.Size(101, 23);
-            this.btnRegPacnte.TabIndex = 9;
-            this.btnRegPacnte.Text = "Registrar paciente";
-            this.btnRegPacnte.UseVisualStyleBackColor = true;
+            this.btnFormPacnte.Location = new System.Drawing.Point(15, 376);
+            this.btnFormPacnte.Name = "btnFormPacnte";
+            this.btnFormPacnte.Size = new System.Drawing.Size(101, 23);
+            this.btnFormPacnte.TabIndex = 9;
+            this.btnFormPacnte.Text = "Registrar paciente";
+            this.btnFormPacnte.UseVisualStyleBackColor = true;
+            this.btnFormPacnte.Click += new System.EventHandler(this.btnFormPacnte_Click);
             // 
             // btnDatHabitacion
             // 
@@ -137,6 +139,7 @@
             this.btnDatHabitacion.TabIndex = 11;
             this.btnDatHabitacion.Text = "Datos habitaciones";
             this.btnDatHabitacion.UseVisualStyleBackColor = true;
+            this.btnDatHabitacion.Click += new System.EventHandler(this.btnDatHabitacion_Click);
             // 
             // formPresentacion
             // 
@@ -144,8 +147,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 411);
             this.Controls.Add(this.btnDatHabitacion);
-            this.Controls.Add(this.btnRegPacnte);
-            this.Controls.Add(this.btnRegMed);
+            this.Controls.Add(this.btnFormPacnte);
+            this.Controls.Add(this.btnFormMed);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.listHabitaciones);
             this.Controls.Add(this.listClinicos);
@@ -155,7 +158,8 @@
             this.Controls.Add(this.gridMedicos);
             this.Controls.Add(this.label1);
             this.Name = "formPresentacion";
-            this.Text = "Form1";
+            this.Text = "Windows Clínica";
+            this.Load += new System.EventHandler(this.formPresentacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridMedicos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridPacientes)).EndInit();
             this.ResumeLayout(false);
@@ -173,8 +177,8 @@
         private System.Windows.Forms.ListBox listClinicos;
         private System.Windows.Forms.ListBox listHabitaciones;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnRegMed;
-        private System.Windows.Forms.Button btnRegPacnte;
+        private System.Windows.Forms.Button btnFormMed;
+        private System.Windows.Forms.Button btnFormPacnte;
         private System.Windows.Forms.Button btnDatHabitacion;
     }
 }

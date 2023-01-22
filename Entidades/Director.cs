@@ -9,8 +9,9 @@ namespace Entidades
 {
     public class Director : Medico
     {
+        public Director() { }
 
-        public Director(string nombre, string apellido, string domicilio, string telefono, string email, int medicoId, string especialidad, int matricula, string postGrado):base(nombre, apellido, domicilio, telefono, email, medicoId, especialidad, matricula)
+        public Director(string nombre, string apellido, string domicilio, string telefono, string email, int medicoId, string especialidad, int matricula, string postGrado):base(nombre, apellido, domicilio, telefono, email, especialidad, matricula)
         {
             PostGrado = postGrado;
         }

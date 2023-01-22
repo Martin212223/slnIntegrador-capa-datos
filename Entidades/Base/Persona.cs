@@ -10,7 +10,7 @@ namespace Entidades.Base
 {
     public abstract class Persona
     {
-
+        public Persona() { }
         public Persona(string nombre, string apellido, string domicilio, string telefono, string email)
         {
             Nombre = nombre;

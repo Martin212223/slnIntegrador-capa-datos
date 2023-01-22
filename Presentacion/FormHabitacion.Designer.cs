@@ -31,17 +31,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.txtIdHabit = new System.Windows.Forms.TextBox();
+            this.txtNroHabit = new System.Windows.Forms.TextBox();
+            this.comboEstHabit = new System.Windows.Forms.ComboBox();
+            this.btnModHabit = new System.Windows.Forms.Button();
+            this.btnRegHabit = new System.Windows.Forms.Button();
+            this.gridFormHabit = new System.Windows.Forms.DataGridView();
+            this.btnTodasHabit = new System.Windows.Forms.Button();
+            this.btnEstHabit = new System.Windows.Forms.Button();
+            this.btnEliminarHabit = new System.Windows.Forms.Button();
+            this.btnIdHabit = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFormHabit)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -71,111 +71,118 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Estado:";
             // 
-            // textBox1
+            // txtIdHabit
             // 
-            this.textBox1.Location = new System.Drawing.Point(130, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtIdHabit.Location = new System.Drawing.Point(130, 30);
+            this.txtIdHabit.Name = "txtIdHabit";
+            this.txtIdHabit.Size = new System.Drawing.Size(100, 20);
+            this.txtIdHabit.TabIndex = 3;
             // 
-            // textBox2
+            // txtNroHabit
             // 
-            this.textBox2.Location = new System.Drawing.Point(130, 101);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtNroHabit.Location = new System.Drawing.Point(130, 101);
+            this.txtNroHabit.Name = "txtNroHabit";
+            this.txtNroHabit.Size = new System.Drawing.Size(100, 20);
+            this.txtNroHabit.TabIndex = 4;
             // 
-            // comboBox1
+            // comboEstHabit
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(126, 175);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 5;
+            this.comboEstHabit.FormattingEnabled = true;
+            this.comboEstHabit.Location = new System.Drawing.Point(126, 175);
+            this.comboEstHabit.Name = "comboEstHabit";
+            this.comboEstHabit.Size = new System.Drawing.Size(121, 21);
+            this.comboEstHabit.TabIndex = 5;
             // 
-            // button2
+            // btnModHabit
             // 
-            this.button2.Location = new System.Drawing.Point(155, 257);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnModHabit.Location = new System.Drawing.Point(155, 257);
+            this.btnModHabit.Name = "btnModHabit";
+            this.btnModHabit.Size = new System.Drawing.Size(75, 23);
+            this.btnModHabit.TabIndex = 19;
+            this.btnModHabit.Text = "Modificar";
+            this.btnModHabit.UseVisualStyleBackColor = true;
+            this.btnModHabit.Click += new System.EventHandler(this.btnModHabit_Click);
             // 
-            // button1
+            // btnRegHabit
             // 
-            this.button1.Location = new System.Drawing.Point(53, 257);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegHabit.Location = new System.Drawing.Point(53, 257);
+            this.btnRegHabit.Name = "btnRegHabit";
+            this.btnRegHabit.Size = new System.Drawing.Size(75, 23);
+            this.btnRegHabit.TabIndex = 18;
+            this.btnRegHabit.Text = "Registrar";
+            this.btnRegHabit.UseVisualStyleBackColor = true;
+            this.btnRegHabit.Click += new System.EventHandler(this.btnRegHabit_Click);
             // 
-            // dataGridView1
+            // gridFormHabit
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(369, 46);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 20;
+            this.gridFormHabit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridFormHabit.Location = new System.Drawing.Point(369, 46);
+            this.gridFormHabit.Name = "gridFormHabit";
+            this.gridFormHabit.Size = new System.Drawing.Size(240, 150);
+            this.gridFormHabit.TabIndex = 20;
             // 
-            // button3
+            // btnTodasHabit
             // 
-            this.button3.Location = new System.Drawing.Point(269, 257);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "Ver todos";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnTodasHabit.Location = new System.Drawing.Point(269, 257);
+            this.btnTodasHabit.Name = "btnTodasHabit";
+            this.btnTodasHabit.Size = new System.Drawing.Size(75, 23);
+            this.btnTodasHabit.TabIndex = 21;
+            this.btnTodasHabit.Text = "Ver todos";
+            this.btnTodasHabit.UseVisualStyleBackColor = true;
+            this.btnTodasHabit.Click += new System.EventHandler(this.btnTodasHabit_Click);
             // 
-            // button4
+            // btnEstHabit
             // 
-            this.button4.Location = new System.Drawing.Point(369, 257);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(93, 23);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Ver por estado";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnEstHabit.Location = new System.Drawing.Point(369, 257);
+            this.btnEstHabit.Name = "btnEstHabit";
+            this.btnEstHabit.Size = new System.Drawing.Size(93, 23);
+            this.btnEstHabit.TabIndex = 22;
+            this.btnEstHabit.Text = "Ver por estado";
+            this.btnEstHabit.UseVisualStyleBackColor = true;
+            this.btnEstHabit.Click += new System.EventHandler(this.btnEstHabit_Click);
             // 
-            // button5
+            // btnEliminarHabit
             // 
-            this.button5.Location = new System.Drawing.Point(590, 257);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(84, 23);
-            this.button5.TabIndex = 24;
-            this.button5.Text = "Eliminar por Id";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnEliminarHabit.Location = new System.Drawing.Point(624, 257);
+            this.btnEliminarHabit.Name = "btnEliminarHabit";
+            this.btnEliminarHabit.Size = new System.Drawing.Size(84, 23);
+            this.btnEliminarHabit.TabIndex = 24;
+            this.btnEliminarHabit.Text = "Eliminar por Id";
+            this.btnEliminarHabit.UseVisualStyleBackColor = true;
+            this.btnEliminarHabit.Click += new System.EventHandler(this.btnEliminarHabit_Click);
             // 
-            // button6
+            // btnIdHabit
             // 
-            this.button6.Location = new System.Drawing.Point(487, 257);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(84, 23);
-            this.button6.TabIndex = 23;
-            this.button6.Text = "Buscar por Id";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnIdHabit.Location = new System.Drawing.Point(487, 257);
+            this.btnIdHabit.Name = "btnIdHabit";
+            this.btnIdHabit.Size = new System.Drawing.Size(84, 23);
+            this.btnIdHabit.TabIndex = 23;
+            this.btnIdHabit.Text = "Buscar por nro";
+            this.btnIdHabit.UseVisualStyleBackColor = true;
+            this.btnIdHabit.Click += new System.EventHandler(this.btnIdHabit_Click);
             // 
             // FormHabitacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(752, 333);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnEliminarHabit);
+            this.Controls.Add(this.btnIdHabit);
+            this.Controls.Add(this.btnEstHabit);
+            this.Controls.Add(this.btnTodasHabit);
+            this.Controls.Add(this.gridFormHabit);
+            this.Controls.Add(this.btnModHabit);
+            this.Controls.Add(this.btnRegHabit);
+            this.Controls.Add(this.comboEstHabit);
+            this.Controls.Add(this.txtNroHabit);
+            this.Controls.Add(this.txtIdHabit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormHabitacion";
             this.Text = "FormHabitacion";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FormHabitacion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gridFormHabit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,15 +193,15 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox txtIdHabit;
+        private System.Windows.Forms.TextBox txtNroHabit;
+        private System.Windows.Forms.ComboBox comboEstHabit;
+        private System.Windows.Forms.Button btnModHabit;
+        private System.Windows.Forms.Button btnRegHabit;
+        private System.Windows.Forms.DataGridView gridFormHabit;
+        private System.Windows.Forms.Button btnTodasHabit;
+        private System.Windows.Forms.Button btnEstHabit;
+        private System.Windows.Forms.Button btnEliminarHabit;
+        private System.Windows.Forms.Button btnIdHabit;
     }
 }

@@ -36,22 +36,22 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button6 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.txtNombreMed = new System.Windows.Forms.TextBox();
+            this.txtIdMed = new System.Windows.Forms.TextBox();
+            this.txtEspecMed = new System.Windows.Forms.TextBox();
+            this.txtMatrMed = new System.Windows.Forms.TextBox();
+            this.txtEmailMed = new System.Windows.Forms.TextBox();
+            this.txtTelMed = new System.Windows.Forms.TextBox();
+            this.txtDomicilioMed = new System.Windows.Forms.TextBox();
+            this.txtApellidoMed = new System.Windows.Forms.TextBox();
+            this.btnRegMed = new System.Windows.Forms.Button();
+            this.btnModMed = new System.Windows.Forms.Button();
+            this.btnIdMed = new System.Windows.Forms.Button();
+            this.btnTodosMed = new System.Windows.Forms.Button();
+            this.btnElimMed = new System.Windows.Forms.Button();
+            this.gridFormMed = new System.Windows.Forms.DataGridView();
+            this.btnEsplddMed = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFormMed)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -126,144 +126,150 @@
             this.label8.TabIndex = 7;
             this.label8.Text = "Matrícula:";
             // 
-            // textBox1
+            // txtNombreMed
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 8;
+            this.txtNombreMed.Location = new System.Drawing.Point(114, 38);
+            this.txtNombreMed.Name = "txtNombreMed";
+            this.txtNombreMed.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreMed.TabIndex = 8;
             // 
-            // textBox2
+            // txtIdMed
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
+            this.txtIdMed.Location = new System.Drawing.Point(114, 5);
+            this.txtIdMed.Name = "txtIdMed";
+            this.txtIdMed.Size = new System.Drawing.Size(100, 20);
+            this.txtIdMed.TabIndex = 9;
             // 
-            // textBox3
+            // txtEspecMed
             // 
-            this.textBox3.Location = new System.Drawing.Point(114, 181);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 10;
+            this.txtEspecMed.Location = new System.Drawing.Point(114, 181);
+            this.txtEspecMed.Name = "txtEspecMed";
+            this.txtEspecMed.Size = new System.Drawing.Size(100, 20);
+            this.txtEspecMed.TabIndex = 10;
             // 
-            // textBox4
+            // txtMatrMed
             // 
-            this.textBox4.Location = new System.Drawing.Point(114, 211);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 11;
+            this.txtMatrMed.Location = new System.Drawing.Point(114, 211);
+            this.txtMatrMed.Name = "txtMatrMed";
+            this.txtMatrMed.Size = new System.Drawing.Size(100, 20);
+            this.txtMatrMed.TabIndex = 11;
             // 
-            // textBox5
+            // txtEmailMed
             // 
-            this.textBox5.Location = new System.Drawing.Point(114, 146);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 12;
+            this.txtEmailMed.Location = new System.Drawing.Point(114, 146);
+            this.txtEmailMed.Name = "txtEmailMed";
+            this.txtEmailMed.Size = new System.Drawing.Size(100, 20);
+            this.txtEmailMed.TabIndex = 12;
             // 
-            // textBox6
+            // txtTelMed
             // 
-            this.textBox6.Location = new System.Drawing.Point(114, 117);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 13;
+            this.txtTelMed.Location = new System.Drawing.Point(114, 117);
+            this.txtTelMed.Name = "txtTelMed";
+            this.txtTelMed.Size = new System.Drawing.Size(100, 20);
+            this.txtTelMed.TabIndex = 13;
             // 
-            // textBox7
+            // txtDomicilioMed
             // 
-            this.textBox7.Location = new System.Drawing.Point(114, 90);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 14;
+            this.txtDomicilioMed.Location = new System.Drawing.Point(114, 90);
+            this.txtDomicilioMed.Name = "txtDomicilioMed";
+            this.txtDomicilioMed.Size = new System.Drawing.Size(100, 20);
+            this.txtDomicilioMed.TabIndex = 14;
             // 
-            // textBox8
+            // txtApellidoMed
             // 
-            this.textBox8.Location = new System.Drawing.Point(114, 63);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 15;
+            this.txtApellidoMed.Location = new System.Drawing.Point(114, 63);
+            this.txtApellidoMed.Name = "txtApellidoMed";
+            this.txtApellidoMed.Size = new System.Drawing.Size(100, 20);
+            this.txtApellidoMed.TabIndex = 15;
             // 
-            // button1
+            // btnRegMed
             // 
-            this.button1.Location = new System.Drawing.Point(12, 261);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegMed.Location = new System.Drawing.Point(12, 261);
+            this.btnRegMed.Name = "btnRegMed";
+            this.btnRegMed.Size = new System.Drawing.Size(75, 23);
+            this.btnRegMed.TabIndex = 16;
+            this.btnRegMed.Text = "Registrar";
+            this.btnRegMed.UseVisualStyleBackColor = true;
+            this.btnRegMed.Click += new System.EventHandler(this.btnRegMed_Click);
             // 
-            // button2
+            // btnModMed
             // 
-            this.button2.Location = new System.Drawing.Point(114, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnModMed.Location = new System.Drawing.Point(114, 261);
+            this.btnModMed.Name = "btnModMed";
+            this.btnModMed.Size = new System.Drawing.Size(75, 23);
+            this.btnModMed.TabIndex = 17;
+            this.btnModMed.Text = "Modificar";
+            this.btnModMed.UseVisualStyleBackColor = true;
+            this.btnModMed.Click += new System.EventHandler(this.btnModMed_Click);
             // 
-            // button3
+            // btnIdMed
             // 
-            this.button3.Location = new System.Drawing.Point(342, 261);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 23);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Buscar por Id";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnIdMed.Location = new System.Drawing.Point(342, 261);
+            this.btnIdMed.Name = "btnIdMed";
+            this.btnIdMed.Size = new System.Drawing.Size(84, 23);
+            this.btnIdMed.TabIndex = 18;
+            this.btnIdMed.Text = "Buscar por Id";
+            this.btnIdMed.UseVisualStyleBackColor = true;
+            this.btnIdMed.Click += new System.EventHandler(this.btnIdMed_Click);
             // 
-            // button4
+            // btnTodosMed
             // 
-            this.button4.Location = new System.Drawing.Point(432, 261);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(84, 23);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "Ver todos";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnTodosMed.Location = new System.Drawing.Point(432, 261);
+            this.btnTodosMed.Name = "btnTodosMed";
+            this.btnTodosMed.Size = new System.Drawing.Size(84, 23);
+            this.btnTodosMed.TabIndex = 19;
+            this.btnTodosMed.Text = "Ver todos";
+            this.btnTodosMed.UseVisualStyleBackColor = true;
+            this.btnTodosMed.Click += new System.EventHandler(this.btnTodosMed_Click);
             // 
-            // button5
+            // btnElimMed
             // 
-            this.button5.Location = new System.Drawing.Point(536, 261);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(84, 23);
-            this.button5.TabIndex = 20;
-            this.button5.Text = "Eliminar por Id";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnElimMed.Location = new System.Drawing.Point(536, 261);
+            this.btnElimMed.Name = "btnElimMed";
+            this.btnElimMed.Size = new System.Drawing.Size(84, 23);
+            this.btnElimMed.TabIndex = 20;
+            this.btnElimMed.Text = "Eliminar por Id";
+            this.btnElimMed.UseVisualStyleBackColor = true;
+            this.btnElimMed.Click += new System.EventHandler(this.btnElimMed_Click);
             // 
-            // dataGridView1
+            // gridFormMed
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(235, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(362, 220);
-            this.dataGridView1.TabIndex = 21;
+            this.gridFormMed.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridFormMed.Location = new System.Drawing.Point(235, 12);
+            this.gridFormMed.Name = "gridFormMed";
+            this.gridFormMed.Size = new System.Drawing.Size(362, 220);
+            this.gridFormMed.TabIndex = 21;
             // 
-            // button6
+            // btnEsplddMed
             // 
-            this.button6.Location = new System.Drawing.Point(195, 261);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(141, 23);
-            this.button6.TabIndex = 22;
-            this.button6.Text = "Buscar por Especialidad";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnEsplddMed.Location = new System.Drawing.Point(195, 261);
+            this.btnEsplddMed.Name = "btnEsplddMed";
+            this.btnEsplddMed.Size = new System.Drawing.Size(141, 23);
+            this.btnEsplddMed.TabIndex = 22;
+            this.btnEsplddMed.Text = "Buscar por Especialidad";
+            this.btnEsplddMed.UseVisualStyleBackColor = true;
+            this.btnEsplddMed.Click += new System.EventHandler(this.btnEsplddMed_Click);
             // 
             // FormMedico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 310);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnEsplddMed);
+            this.Controls.Add(this.gridFormMed);
+            this.Controls.Add(this.btnElimMed);
+            this.Controls.Add(this.btnTodosMed);
+            this.Controls.Add(this.btnIdMed);
+            this.Controls.Add(this.btnModMed);
+            this.Controls.Add(this.btnRegMed);
+            this.Controls.Add(this.txtApellidoMed);
+            this.Controls.Add(this.txtDomicilioMed);
+            this.Controls.Add(this.txtTelMed);
+            this.Controls.Add(this.txtEmailMed);
+            this.Controls.Add(this.txtMatrMed);
+            this.Controls.Add(this.txtEspecMed);
+            this.Controls.Add(this.txtIdMed);
+            this.Controls.Add(this.txtNombreMed);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -274,7 +280,8 @@
             this.Controls.Add(this.label1);
             this.Name = "FormMedico";
             this.Text = "FormMedico";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FormMedico_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gridFormMed)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -290,20 +297,20 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox txtNombreMed;
+        private System.Windows.Forms.TextBox txtIdMed;
+        private System.Windows.Forms.TextBox txtEspecMed;
+        private System.Windows.Forms.TextBox txtMatrMed;
+        private System.Windows.Forms.TextBox txtEmailMed;
+        private System.Windows.Forms.TextBox txtTelMed;
+        private System.Windows.Forms.TextBox txtDomicilioMed;
+        private System.Windows.Forms.TextBox txtApellidoMed;
+        private System.Windows.Forms.Button btnRegMed;
+        private System.Windows.Forms.Button btnModMed;
+        private System.Windows.Forms.Button btnIdMed;
+        private System.Windows.Forms.Button btnTodosMed;
+        private System.Windows.Forms.Button btnElimMed;
+        private System.Windows.Forms.DataGridView gridFormMed;
+        private System.Windows.Forms.Button btnEsplddMed;
     }
 }

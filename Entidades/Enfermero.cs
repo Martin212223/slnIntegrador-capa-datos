@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    [Table("Enfermeros")]
+    //[Table("Enfermeros")]
     public class Enfermero : Persona
     {
 
@@ -21,12 +21,12 @@ namespace Entidades
 
         public int EnfermeroId { get; set; }
 
-        [Column(TypeName = "varchar")]
-        [StringLength(50)]
-        [Required]
+        //[Column(TypeName = "varchar")]
+        //[StringLength(50)]
+        //[Required]
         public string Cuil { get; set; }
 
-        public Clinica Clinica { get; set; }
+        //public Clinica Clinica { get; set; }
 
     }
 }

@@ -45,7 +45,7 @@ namespace Negocio
                 pacienteOrigen.Email = paciente.Email;
                 pacienteOrigen.NroHistoriaClinica = paciente.NroHistoriaClinica;
                 pacienteOrigen.HabitacionId = paciente.HabitacionId;
-                pacienteOrigen.ClinicaId = paciente.ClinicaId;
+                //pacienteOrigen.ClinicaId = paciente.ClinicaId;
                 pacienteOrigen.MedicoId = paciente.MedicoId;
 
                 return context.SaveChanges();

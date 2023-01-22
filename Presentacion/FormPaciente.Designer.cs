@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.gridFormPacnte = new System.Windows.Forms.DataGridView();
+            this.btnElimPacnte = new System.Windows.Forms.Button();
+            this.btnTodosPacnte = new System.Windows.Forms.Button();
+            this.btnIdPacnte = new System.Windows.Forms.Button();
+            this.btnModPacnte = new System.Windows.Forms.Button();
+            this.btnRegPacnte = new System.Windows.Forms.Button();
+            this.txtApellPacnte = new System.Windows.Forms.TextBox();
+            this.txtDomicPacnte = new System.Windows.Forms.TextBox();
+            this.txtTelPacnte = new System.Windows.Forms.TextBox();
+            this.txtEmailPacnte = new System.Windows.Forms.TextBox();
+            this.txtNroHistPacnte = new System.Windows.Forms.TextBox();
+            this.txtIdPacnte = new System.Windows.Forms.TextBox();
+            this.txtNombrePacnte = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -48,115 +48,119 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFormPacnte)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // gridFormPacnte
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(249, 44);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(362, 220);
-            this.dataGridView1.TabIndex = 43;
+            this.gridFormPacnte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridFormPacnte.Location = new System.Drawing.Point(252, 8);
+            this.gridFormPacnte.Name = "gridFormPacnte";
+            this.gridFormPacnte.Size = new System.Drawing.Size(362, 220);
+            this.gridFormPacnte.TabIndex = 43;
             // 
-            // button5
+            // btnElimPacnte
             // 
-            this.button5.Location = new System.Drawing.Point(502, 293);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(84, 23);
-            this.button5.TabIndex = 42;
-            this.button5.Text = "Eliminar por Id";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnElimPacnte.Location = new System.Drawing.Point(502, 293);
+            this.btnElimPacnte.Name = "btnElimPacnte";
+            this.btnElimPacnte.Size = new System.Drawing.Size(84, 23);
+            this.btnElimPacnte.TabIndex = 42;
+            this.btnElimPacnte.Text = "Eliminar por Id";
+            this.btnElimPacnte.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnTodosPacnte
             // 
-            this.button4.Location = new System.Drawing.Point(388, 293);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(84, 23);
-            this.button4.TabIndex = 41;
-            this.button4.Text = "Ver todos";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnTodosPacnte.Location = new System.Drawing.Point(388, 293);
+            this.btnTodosPacnte.Name = "btnTodosPacnte";
+            this.btnTodosPacnte.Size = new System.Drawing.Size(84, 23);
+            this.btnTodosPacnte.TabIndex = 41;
+            this.btnTodosPacnte.Text = "Ver todos";
+            this.btnTodosPacnte.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnIdPacnte
             // 
-            this.button3.Location = new System.Drawing.Point(271, 293);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 23);
-            this.button3.TabIndex = 40;
-            this.button3.Text = "Buscar por Id";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnIdPacnte.Location = new System.Drawing.Point(271, 293);
+            this.btnIdPacnte.Name = "btnIdPacnte";
+            this.btnIdPacnte.Size = new System.Drawing.Size(84, 23);
+            this.btnIdPacnte.TabIndex = 40;
+            this.btnIdPacnte.Text = "Buscar por Id";
+            this.btnIdPacnte.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnModPacnte
             // 
-            this.button2.Location = new System.Drawing.Point(166, 293);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnModPacnte.Location = new System.Drawing.Point(166, 293);
+            this.btnModPacnte.Name = "btnModPacnte";
+            this.btnModPacnte.Size = new System.Drawing.Size(75, 23);
+            this.btnModPacnte.TabIndex = 39;
+            this.btnModPacnte.Text = "Modificar";
+            this.btnModPacnte.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnRegPacnte
             // 
-            this.button1.Location = new System.Drawing.Point(64, 293);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 38;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegPacnte.Location = new System.Drawing.Point(64, 293);
+            this.btnRegPacnte.Name = "btnRegPacnte";
+            this.btnRegPacnte.Size = new System.Drawing.Size(75, 23);
+            this.btnRegPacnte.TabIndex = 38;
+            this.btnRegPacnte.Text = "Registrar";
+            this.btnRegPacnte.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // txtApellPacnte
             // 
-            this.textBox8.Location = new System.Drawing.Point(128, 95);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 37;
+            this.txtApellPacnte.Location = new System.Drawing.Point(126, 66);
+            this.txtApellPacnte.Name = "txtApellPacnte";
+            this.txtApellPacnte.Size = new System.Drawing.Size(100, 20);
+            this.txtApellPacnte.TabIndex = 37;
             // 
-            // textBox7
+            // txtDomicPacnte
             // 
-            this.textBox7.Location = new System.Drawing.Point(128, 122);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 36;
+            this.txtDomicPacnte.Location = new System.Drawing.Point(126, 93);
+            this.txtDomicPacnte.Name = "txtDomicPacnte";
+            this.txtDomicPacnte.Size = new System.Drawing.Size(100, 20);
+            this.txtDomicPacnte.TabIndex = 36;
             // 
-            // textBox6
+            // txtTelPacnte
             // 
-            this.textBox6.Location = new System.Drawing.Point(128, 149);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 35;
+            this.txtTelPacnte.Location = new System.Drawing.Point(126, 120);
+            this.txtTelPacnte.Name = "txtTelPacnte";
+            this.txtTelPacnte.Size = new System.Drawing.Size(100, 20);
+            this.txtTelPacnte.TabIndex = 35;
             // 
-            // textBox5
+            // txtEmailPacnte
             // 
-            this.textBox5.Location = new System.Drawing.Point(128, 178);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 34;
+            this.txtEmailPacnte.Location = new System.Drawing.Point(126, 149);
+            this.txtEmailPacnte.Name = "txtEmailPacnte";
+            this.txtEmailPacnte.Size = new System.Drawing.Size(100, 20);
+            this.txtEmailPacnte.TabIndex = 34;
             // 
-            // textBox3
+            // txtNroHistPacnte
             // 
-            this.textBox3.Location = new System.Drawing.Point(128, 213);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 32;
+            this.txtNroHistPacnte.Location = new System.Drawing.Point(126, 184);
+            this.txtNroHistPacnte.Name = "txtNroHistPacnte";
+            this.txtNroHistPacnte.Size = new System.Drawing.Size(100, 20);
+            this.txtNroHistPacnte.TabIndex = 32;
             // 
-            // textBox2
+            // txtIdPacnte
             // 
-            this.textBox2.Location = new System.Drawing.Point(128, 37);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 31;
+            this.txtIdPacnte.Location = new System.Drawing.Point(126, 8);
+            this.txtIdPacnte.Name = "txtIdPacnte";
+            this.txtIdPacnte.Size = new System.Drawing.Size(100, 20);
+            this.txtIdPacnte.TabIndex = 31;
             // 
-            // textBox1
+            // txtNombrePacnte
             // 
-            this.textBox1.Location = new System.Drawing.Point(128, 70);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 30;
+            this.txtNombrePacnte.Location = new System.Drawing.Point(126, 41);
+            this.txtNombrePacnte.Name = "txtNombrePacnte";
+            this.txtNombrePacnte.Size = new System.Drawing.Size(100, 20);
+            this.txtNombrePacnte.TabIndex = 30;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 216);
+            this.label7.Location = new System.Drawing.Point(10, 187);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(104, 13);
             this.label7.TabIndex = 28;
@@ -165,7 +169,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 40);
+            this.label6.Location = new System.Drawing.Point(10, 11);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(19, 13);
             this.label6.TabIndex = 27;
@@ -174,7 +178,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 181);
+            this.label5.Location = new System.Drawing.Point(10, 152);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 26;
@@ -183,7 +187,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 152);
+            this.label4.Location = new System.Drawing.Point(10, 123);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 25;
@@ -192,7 +196,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 125);
+            this.label3.Location = new System.Drawing.Point(10, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 24;
@@ -201,7 +205,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 98);
+            this.label2.Location = new System.Drawing.Point(10, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 23;
@@ -210,30 +214,68 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 69);
+            this.label1.Location = new System.Drawing.Point(10, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 22;
             this.label1.Text = "Nombre:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(12, 225);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(45, 13);
+            this.label8.TabIndex = 44;
+            this.label8.Text = "Médico:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(12, 262);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(61, 13);
+            this.label9.TabIndex = 45;
+            this.label9.Text = "Habitación:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(120, 222);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 46;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(120, 259);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 47;
             // 
             // FormPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 352);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.gridFormPacnte);
+            this.Controls.Add(this.btnElimPacnte);
+            this.Controls.Add(this.btnTodosPacnte);
+            this.Controls.Add(this.btnIdPacnte);
+            this.Controls.Add(this.btnModPacnte);
+            this.Controls.Add(this.btnRegPacnte);
+            this.Controls.Add(this.txtApellPacnte);
+            this.Controls.Add(this.txtDomicPacnte);
+            this.Controls.Add(this.txtTelPacnte);
+            this.Controls.Add(this.txtEmailPacnte);
+            this.Controls.Add(this.txtNroHistPacnte);
+            this.Controls.Add(this.txtIdPacnte);
+            this.Controls.Add(this.txtNombrePacnte);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -243,7 +285,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormPaciente";
             this.Text = "FormPaciente";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFormPacnte)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -251,19 +293,19 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView gridFormPacnte;
+        private System.Windows.Forms.Button btnElimPacnte;
+        private System.Windows.Forms.Button btnTodosPacnte;
+        private System.Windows.Forms.Button btnIdPacnte;
+        private System.Windows.Forms.Button btnModPacnte;
+        private System.Windows.Forms.Button btnRegPacnte;
+        private System.Windows.Forms.TextBox txtApellPacnte;
+        private System.Windows.Forms.TextBox txtDomicPacnte;
+        private System.Windows.Forms.TextBox txtTelPacnte;
+        private System.Windows.Forms.TextBox txtEmailPacnte;
+        private System.Windows.Forms.TextBox txtNroHistPacnte;
+        private System.Windows.Forms.TextBox txtIdPacnte;
+        private System.Windows.Forms.TextBox txtNombrePacnte;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -271,5 +313,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

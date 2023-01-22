@@ -55,6 +55,19 @@
     <Compile Include="Dac\AbmMedico.cs" />
     <Compile Include="Dac\AbmPaciente.cs" />
     <Compile Include="Data\DBPacientesClinicaContext.cs" />
+    <Compile Include="Migrations\202301211647596_initial.cs" />
+    <Compile Include="Migrations\202301211647596_initial.designer.cs">
+      <DependentUpon>202301211647596_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301211711220_second.cs" />
+    <Compile Include="Migrations\202301211711220_second.designer.cs">
+      <DependentUpon>202301211711220_second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301220906017_cambios.cs" />
+    <Compile Include="Migrations\202301220906017_cambios.designer.cs">
+      <DependentUpon>202301220906017_cambios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +79,17 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202301211647596_initial.resx">
+      <DependentUpon>202301211647596_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301211711220_second.resx">
+      <DependentUpon>202301211711220_second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301220906017_cambios.resx">
+      <DependentUpon>202301220906017_cambios.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
