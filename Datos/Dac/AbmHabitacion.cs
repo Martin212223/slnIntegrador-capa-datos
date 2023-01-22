@@ -52,21 +52,18 @@ namespace Negocio
         public static Habitacion TraerUno(int numero)
         {
 
-
             Habitacion habitacionDestino = new Habitacion();
 
-              foreach (Habitacion habitacion in context.Habitaciones.ToList())
-              {
-                  if (habitacion.Numero.Equals(numero)) 
-                  {
-                      habitacionDestino.HabitacionId = habitacion.HabitacionId;
-                      habitacionDestino.Numero = habitacion.Numero;
-                      habitacionDestino.Estado = habitacion.Estado;
-                  }
-              }
+            foreach (Habitacion habitacion in context.Habitaciones.ToList())
+            {
+                if (habitacion.Numero.Equals(numero)) 
+                {
+                    habitacionDestino.HabitacionId = habitacion.HabitacionId;
+                    habitacionDestino.Numero = habitacion.Numero;
+                    habitacionDestino.Estado = habitacion.Estado;
+                }
+            }
              
-            
-
             return habitacionDestino;
 
         }
@@ -84,7 +81,6 @@ namespace Negocio
             }
 
             return 0;
-
         }
     }
 }

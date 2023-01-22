@@ -21,7 +21,7 @@ namespace Presentacion
 
         private void MedicosTodos()
         {
-            gridFormMed.DataSource = AbmMedico.ListarTodos();
+            gridFormMed.DataSource = AbmMedico.Listar();
         }
 
         private void Limpiar()

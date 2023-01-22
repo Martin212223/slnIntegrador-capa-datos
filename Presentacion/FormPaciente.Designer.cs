@@ -31,7 +31,7 @@
             this.gridFormPacnte = new System.Windows.Forms.DataGridView();
             this.btnElimPacnte = new System.Windows.Forms.Button();
             this.btnTodosPacnte = new System.Windows.Forms.Button();
-            this.btnIdPacnte = new System.Windows.Forms.Button();
+            this.btnHistClinPacnte = new System.Windows.Forms.Button();
             this.btnModPacnte = new System.Windows.Forms.Button();
             this.btnRegPacnte = new System.Windows.Forms.Button();
             this.txtApellPacnte = new System.Windows.Forms.TextBox();
@@ -50,8 +50,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboPacientesMed = new System.Windows.Forms.ComboBox();
+            this.comboPacientesHabit = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridFormPacnte)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,48 +65,53 @@
             // 
             // btnElimPacnte
             // 
-            this.btnElimPacnte.Location = new System.Drawing.Point(502, 293);
+            this.btnElimPacnte.Location = new System.Drawing.Point(545, 293);
             this.btnElimPacnte.Name = "btnElimPacnte";
             this.btnElimPacnte.Size = new System.Drawing.Size(84, 23);
             this.btnElimPacnte.TabIndex = 42;
             this.btnElimPacnte.Text = "Eliminar por Id";
             this.btnElimPacnte.UseVisualStyleBackColor = true;
+            this.btnElimPacnte.Click += new System.EventHandler(this.btnElimPacnte_Click);
             // 
             // btnTodosPacnte
             // 
-            this.btnTodosPacnte.Location = new System.Drawing.Point(388, 293);
+            this.btnTodosPacnte.Location = new System.Drawing.Point(423, 293);
             this.btnTodosPacnte.Name = "btnTodosPacnte";
             this.btnTodosPacnte.Size = new System.Drawing.Size(84, 23);
             this.btnTodosPacnte.TabIndex = 41;
             this.btnTodosPacnte.Text = "Ver todos";
             this.btnTodosPacnte.UseVisualStyleBackColor = true;
+            this.btnTodosPacnte.Click += new System.EventHandler(this.btnTodosPacnte_Click);
             // 
-            // btnIdPacnte
+            // btnHistClinPacnte
             // 
-            this.btnIdPacnte.Location = new System.Drawing.Point(271, 293);
-            this.btnIdPacnte.Name = "btnIdPacnte";
-            this.btnIdPacnte.Size = new System.Drawing.Size(84, 23);
-            this.btnIdPacnte.TabIndex = 40;
-            this.btnIdPacnte.Text = "Buscar por Id";
-            this.btnIdPacnte.UseVisualStyleBackColor = true;
+            this.btnHistClinPacnte.Location = new System.Drawing.Point(239, 293);
+            this.btnHistClinPacnte.Name = "btnHistClinPacnte";
+            this.btnHistClinPacnte.Size = new System.Drawing.Size(146, 23);
+            this.btnHistClinPacnte.TabIndex = 40;
+            this.btnHistClinPacnte.Text = "Buscar por Historia Clínica";
+            this.btnHistClinPacnte.UseVisualStyleBackColor = true;
+            this.btnHistClinPacnte.Click += new System.EventHandler(this.btnHistClinPacnte_Click);
             // 
             // btnModPacnte
             // 
-            this.btnModPacnte.Location = new System.Drawing.Point(166, 293);
+            this.btnModPacnte.Location = new System.Drawing.Point(126, 293);
             this.btnModPacnte.Name = "btnModPacnte";
             this.btnModPacnte.Size = new System.Drawing.Size(75, 23);
             this.btnModPacnte.TabIndex = 39;
             this.btnModPacnte.Text = "Modificar";
             this.btnModPacnte.UseVisualStyleBackColor = true;
+            this.btnModPacnte.Click += new System.EventHandler(this.btnModPacnte_Click);
             // 
             // btnRegPacnte
             // 
-            this.btnRegPacnte.Location = new System.Drawing.Point(64, 293);
+            this.btnRegPacnte.Location = new System.Drawing.Point(15, 293);
             this.btnRegPacnte.Name = "btnRegPacnte";
             this.btnRegPacnte.Size = new System.Drawing.Size(75, 23);
             this.btnRegPacnte.TabIndex = 38;
             this.btnRegPacnte.Text = "Registrar";
             this.btnRegPacnte.UseVisualStyleBackColor = true;
+            this.btnRegPacnte.Click += new System.EventHandler(this.btnRegPacnte_Click);
             // 
             // txtApellPacnte
             // 
@@ -238,35 +243,35 @@
             this.label9.TabIndex = 45;
             this.label9.Text = "Habitación:";
             // 
-            // comboBox1
+            // comboPacientesMed
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(120, 222);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 46;
+            this.comboPacientesMed.FormattingEnabled = true;
+            this.comboPacientesMed.Location = new System.Drawing.Point(120, 222);
+            this.comboPacientesMed.Name = "comboPacientesMed";
+            this.comboPacientesMed.Size = new System.Drawing.Size(121, 21);
+            this.comboPacientesMed.TabIndex = 46;
             // 
-            // comboBox2
+            // comboPacientesHabit
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(120, 259);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 47;
+            this.comboPacientesHabit.FormattingEnabled = true;
+            this.comboPacientesHabit.Location = new System.Drawing.Point(120, 259);
+            this.comboPacientesHabit.Name = "comboPacientesHabit";
+            this.comboPacientesHabit.Size = new System.Drawing.Size(121, 21);
+            this.comboPacientesHabit.TabIndex = 47;
             // 
             // FormPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 352);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboPacientesHabit);
+            this.Controls.Add(this.comboPacientesMed);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.gridFormPacnte);
             this.Controls.Add(this.btnElimPacnte);
             this.Controls.Add(this.btnTodosPacnte);
-            this.Controls.Add(this.btnIdPacnte);
+            this.Controls.Add(this.btnHistClinPacnte);
             this.Controls.Add(this.btnModPacnte);
             this.Controls.Add(this.btnRegPacnte);
             this.Controls.Add(this.txtApellPacnte);
@@ -285,6 +290,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormPaciente";
             this.Text = "FormPaciente";
+            this.Load += new System.EventHandler(this.FormPaciente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridFormPacnte)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -296,7 +302,7 @@
         private System.Windows.Forms.DataGridView gridFormPacnte;
         private System.Windows.Forms.Button btnElimPacnte;
         private System.Windows.Forms.Button btnTodosPacnte;
-        private System.Windows.Forms.Button btnIdPacnte;
+        private System.Windows.Forms.Button btnHistClinPacnte;
         private System.Windows.Forms.Button btnModPacnte;
         private System.Windows.Forms.Button btnRegPacnte;
         private System.Windows.Forms.TextBox txtApellPacnte;
@@ -315,7 +321,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboPacientesMed;
+        private System.Windows.Forms.ComboBox comboPacientesHabit;
     }
 }

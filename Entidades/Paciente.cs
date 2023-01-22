@@ -12,6 +12,12 @@ namespace Entidades
     public class Paciente : Persona
     {
         public Paciente() { }
+
+        public Paciente(string nombre, string apellido, string domicilio, string telefono, string email, int nroHistoriaClinica) : base(nombre, apellido, domicilio, telefono, email)
+        {
+            NroHistoriaClinica = nroHistoriaClinica;
+        }
+
         public Paciente(string nombre, string apellido, string domicilio, string telefono, string email, int pacienteId, int nroHistoriaClinica):base(nombre, apellido, domicilio, telefono, email) 
         {
             PacienteId = pacienteId;

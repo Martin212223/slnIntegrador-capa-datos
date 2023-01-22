@@ -14,15 +14,15 @@ namespace Negocio
 
         private static DBPacientesClinicaContext context = new DBPacientesClinicaContext();
 
-        public static List<Medico> ListarTodos()
+        public static List<Medico> Listar()
         {
             
             return context.Medicos.ToList();
+
         }
 
         public static List<Medico> Listar(string especialidad)
         {
-
             List<Medico> medicosPorEspecialidad = new List<Medico>();
 
             foreach (Medico medico in context.Medicos.ToList())
@@ -34,7 +34,6 @@ namespace Negocio
             }
 
             return medicosPorEspecialidad;
-
         }
 
         public static int Insertar(Medico medico)
@@ -42,6 +41,20 @@ namespace Negocio
             context.Medicos.Add(medico);
             
             return context.SaveChanges();
+        }
+
+        public static int Eliminar(int id)
+        {
+            context.Medicos.Remove(context.Medicos.Find(id));
+
+            return context.SaveChanges();
+        }
+
+        public static Medico TraerUno(int id)
+        {
+
+            return context.Medicos.Find(id);
+
         }
 
         public static int Modificar(Medico medico)
@@ -59,25 +72,11 @@ namespace Negocio
                 medicoOrigen.Matricula = medico.Matricula;
 
                 return context.SaveChanges();
-
-                //string nombre, string apellido, string domicilio, string telefono, string email, string especialidad, int matricula
             }
 
             return 0;
         }
 
-        public static int Eliminar(int id) //int id
-        {
-            context.Medicos.Remove(context.Medicos.Find(id));
-
-            return context.SaveChanges();
-        }
-
-        public static Medico TraerUno(int id)
-        {
-
-            return context.Medicos.Find(id);
-
-        }
+        
     }
 }
