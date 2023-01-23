@@ -63,6 +63,8 @@ namespace Presentacion
             {
                 comboPacientesHabit.Items.Add("Número: " + habitacion.Numero + " Id: " + habitacion.HabitacionId);
             }
+
+            VerTodos();
         }
 
         private void btnRegPacnte_Click(object sender, EventArgs e)
@@ -92,6 +94,8 @@ namespace Presentacion
         private void btnElimPacnte_Click(object sender, EventArgs e)
         {
             AbmPaciente.Eliminar(Convert.ToInt32(txtIdPacnte.Text));
+
+            VerTodos();
         }
 
         private void btnTodosPacnte_Click(object sender, EventArgs e)
@@ -110,15 +114,15 @@ namespace Presentacion
 
         private void btnModPacnte_Click(object sender, EventArgs e)
         {
-            Paciente paciente = new Paciente(txtNombrePacnte.Text, txtApellPacnte.Text, txtDomicPacnte.Text, txtTelPacnte.Text, txtEmailPacnte.Text, Convert.ToInt32(txtIdPacnte.Text), Convert.ToInt32(txtNroHistPacnte.Text))
+            Paciente paciente1 = new Paciente(txtNombrePacnte.Text, txtApellPacnte.Text, txtDomicPacnte.Text, txtTelPacnte.Text, txtEmailPacnte.Text, Convert.ToInt32(txtIdPacnte.Text), Convert.ToInt32(txtNroHistPacnte.Text))
             {
                 HabitacionId = ObtenerIdHabitacion(),
                 MedicoId = ObtenerIdMedico()
             };
 
-            AbmPaciente.Modificar(paciente);
+            AbmPaciente.Modificar(paciente1);
 
-            VerTodos();
+            gridFormPacnte.DataSource = context.Pacientes.ToList();
         }
     }
 }

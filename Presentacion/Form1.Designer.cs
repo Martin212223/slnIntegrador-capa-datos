@@ -39,6 +39,7 @@
             this.btnFormMed = new System.Windows.Forms.Button();
             this.btnFormPacnte = new System.Windows.Forms.Button();
             this.btnDatHabitacion = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridMedicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridPacientes)).BeginInit();
             this.SuspendLayout();
@@ -141,11 +142,22 @@
             this.btnDatHabitacion.UseVisualStyleBackColor = true;
             this.btnDatHabitacion.Click += new System.EventHandler(this.btnDatHabitacion_Click);
             // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(17, 417);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(106, 23);
+            this.btnActualizar.TabIndex = 12;
+            this.btnActualizar.Text = "Actualizar todo";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
             // formPresentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 411);
+            this.ClientSize = new System.Drawing.Size(632, 453);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnDatHabitacion);
             this.Controls.Add(this.btnFormPacnte);
             this.Controls.Add(this.btnFormMed);
@@ -180,6 +192,7 @@
         private System.Windows.Forms.Button btnFormMed;
         private System.Windows.Forms.Button btnFormPacnte;
         private System.Windows.Forms.Button btnDatHabitacion;
+        private System.Windows.Forms.Button btnActualizar;
     }
 }
 
