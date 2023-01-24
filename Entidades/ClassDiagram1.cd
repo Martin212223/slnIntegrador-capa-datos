@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.Medico">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEBAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Medico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Clinica">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAEAAAgAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Clinica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Director">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Enfermero">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enfermero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Habitacion">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAg=</HashCode>
+      <FileName>Habitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Paciente">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAQAAAgAIACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Paciente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Base.Persona">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEEAAAgAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Base\Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

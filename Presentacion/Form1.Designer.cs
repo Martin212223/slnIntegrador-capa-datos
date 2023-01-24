@@ -94,6 +94,7 @@
             this.listClinicos.Name = "listClinicos";
             this.listClinicos.Size = new System.Drawing.Size(256, 147);
             this.listClinicos.TabIndex = 5;
+            this.listClinicos.SelectedIndexChanged += new System.EventHandler(this.listClinicos_SelectedIndexChanged);
             // 
             // listHabitaciones
             // 

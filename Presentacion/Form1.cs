@@ -25,21 +25,24 @@ namespace Presentacion
 
         public void MostrarInfo()
         {
+            gridMedicos.DataSource = new List<Medico>();
             gridMedicos.DataSource = context.Medicos.ToList();
 
+            gridPacientes.DataSource = new List<Paciente>();
             gridPacientes.DataSource = context.Pacientes.ToList();
 
-
+            listClinicos.Items.Clear();
             foreach (Medico medico in context.Medicos.ToList())
             {
                 if (medico.Especialidad.Equals("Clínico"))
                 {
-                    listClinicos.Items.Add("Nombre: " + medico.Nombre + " " + medico.Apellido + " Matrícula: " + medico.Matricula + " Espec: " + medico.Especialidad);
+                    listClinicos.Items.Add("Nombre: " + medico.Nombre + " " + medico.Apellido + " Matrícula: " + medico.Matricula);
                 }
             }
 
             string estado;
 
+            listHabitaciones.Items.Clear();
             foreach (Habitacion habitacion in context.Habitaciones.ToList())
             {
                 if (habitacion.Estado) estado = "Ocupada";
@@ -78,6 +81,11 @@ namespace Presentacion
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             MostrarInfo();
+        }
+
+        private void listClinicos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
