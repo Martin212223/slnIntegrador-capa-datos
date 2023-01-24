@@ -38,7 +38,5 @@ namespace Entidades
         public int Matricula { get; set; }
 
         public List<Paciente> Pacientes { get; set; }
-
-        //public Clinica Clinica { get; set; }
     }
 }

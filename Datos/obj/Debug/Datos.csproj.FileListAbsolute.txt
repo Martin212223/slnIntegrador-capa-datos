@@ -31,7 +31,6 @@ C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\Entidad
 C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\EntityFramework.xml
 C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.csproj.CopyComplete
-C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.Migrations.initial.resources
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.Migrations.first.resources
 C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.csproj.GenerateResource.cache
-C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.Migrations.second.resources
-C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.Migrations.cambios.resources
+C:\Users\Alternativa\Desktop\tp integrador\slnIntegrador\Datos\obj\Debug\Datos.Migrations.cascadeDeleteFalse.resources

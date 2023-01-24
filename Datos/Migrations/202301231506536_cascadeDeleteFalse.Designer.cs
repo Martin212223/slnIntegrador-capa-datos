@@ -7,13 +7,13 @@ namespace Datos.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class cambios : IMigrationMetadata
+    public sealed partial class cascadeDeleteFalse : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(cambios));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(cascadeDeleteFalse));
         
         string IMigrationMetadata.Id
         {
-            get { return "202301220906017_cambios"; }
+            get { return "202301231506536_cascadeDeleteFalse"; }
         }
         
         string IMigrationMetadata.Source

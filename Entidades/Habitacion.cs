@@ -32,7 +32,5 @@ namespace Entidades
         public bool Estado { get; set; }
 
         public List<Paciente> Paciente { get; set; }
-
-        //public Clinica Clinica { get; set; }
     }
 }

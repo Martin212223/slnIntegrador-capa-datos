@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class initial : DbMigration
+    public partial class first : DbMigration
     {
         public override void Up()
         {
@@ -32,8 +32,8 @@
                         Email = c.String(nullable: false, maxLength: 50, unicode: false),
                     })
                 .PrimaryKey(t => t.PacienteId)
-                .ForeignKey("dbo.Habitacion", t => t.HabitacionId, cascadeDelete: true)
-                .ForeignKey("dbo.Medico", t => t.MedicoId, cascadeDelete: true)
+                .ForeignKey("dbo.Habitacion", t => t.HabitacionId, cascadeDelete: false)
+                .ForeignKey("dbo.Medico", t => t.MedicoId, cascadeDelete: false)
                 .Index(t => t.HabitacionId)
                 .Index(t => t.MedicoId);
             

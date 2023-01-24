@@ -34,14 +34,6 @@ namespace Entidades
         [ForeignKey("HabitacionId")]
         public Habitacion Habitacion { get; set; }
 
-
-        //public int ClinicaId { get; set; }
-
-        //[ForeignKey("ClinicaId")]
-        //public Clinica Clinica { get; set; }
-
-
-
         public int MedicoId { get; set; }
 
         [ForeignKey("MedicoId")]

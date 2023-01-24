@@ -55,17 +55,13 @@
     <Compile Include="Dac\AbmMedico.cs" />
     <Compile Include="Dac\AbmPaciente.cs" />
     <Compile Include="Data\DBPacientesClinicaContext.cs" />
-    <Compile Include="Migrations\202301211647596_initial.cs" />
-    <Compile Include="Migrations\202301211647596_initial.designer.cs">
-      <DependentUpon>202301211647596_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202301231457337_first.cs" />
+    <Compile Include="Migrations\202301231457337_first.designer.cs">
+      <DependentUpon>202301231457337_first.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202301211711220_second.cs" />
-    <Compile Include="Migrations\202301211711220_second.designer.cs">
-      <DependentUpon>202301211711220_second.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202301220906017_cambios.cs" />
-    <Compile Include="Migrations\202301220906017_cambios.designer.cs">
-      <DependentUpon>202301220906017_cambios.cs</DependentUpon>
+    <Compile Include="Migrations\202301231506536_cascadeDeleteFalse.cs" />
+    <Compile Include="Migrations\202301231506536_cascadeDeleteFalse.designer.cs">
+      <DependentUpon>202301231506536_cascadeDeleteFalse.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,14 +77,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202301211647596_initial.resx">
-      <DependentUpon>202301211647596_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301231457337_first.resx">
+      <DependentUpon>202301231457337_first.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202301211711220_second.resx">
-      <DependentUpon>202301211711220_second.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202301220906017_cambios.resx">
-      <DependentUpon>202301220906017_cambios.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301231506536_cascadeDeleteFalse.resx">
+      <DependentUpon>202301231506536_cascadeDeleteFalse.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
